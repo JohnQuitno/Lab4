@@ -1,0 +1,24 @@
+body
+{
+  background-color:  #346185;
+}
+div
+{
+  color:  #a6d1f3;
+  width: 70%;
+  margin: 0 auto;
+}
+h1
+{
+  text-align: center;
+  font-size: 50px;
+  color:   #a6d1f3;
+}
+form
+{
+  margin: 0 auto;
+  width:250px;
+}
+table, th, td {
+  border: 1px solid black;
+}

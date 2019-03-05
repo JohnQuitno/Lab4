@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Store</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+    <div >
+      <h1>Quitno's Computer Store</h1>
+      <form onSubmit="Validate()" action="customerBackend.php" id="form" method="post">
+        <p><b>Samsung 860 EVO SSD: $55</b</p><br>
+        <input type="text" id="quantity1" name="quantity1"> Quantity<br>
+        <p><b>RTX 2080 Graphics Card: $1350</b</p><br>
+        <input type="text" id="quantity2" name="quantity2"> Quantity<br>
+        <p><b>Corsair Vengeance Ram 16gb: $95</b</p><br>
+        <input type="text" id="quantity3" name="quantity3"> Quantity<br><br>
+        <p><b>Username and Password</b</p><br>
+        <input type="text" id="Username" name="Username"> Username<br>
+        <input type="text" id="Password" name="Password"> Password<br>
+        <p<b>Shipping Options</b></p>
+        <input type="radio" id="free" value="free" name="shipping">Free 7 Day<br>
+        <input type="radio" id="50" value="50" name="shipping">$50.00 over night<br>
+        <input type="radio" id="5" value="5" name="shipping">$5.00 three day<br>
+        <input type="submit">
+        <input type="button" onclick="Reset()" value="Reset"><br>
+      </form>
+    </div>
+    <script type="text/javascript" src="formChecker.js"> </script><br />
+	</body>
+</html>
+s
